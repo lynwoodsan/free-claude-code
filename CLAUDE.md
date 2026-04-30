@@ -7,3 +7,4 @@ IMPORTANT: Ensure you've thoroughly reviewed the [AGENTS.md](AGENTS.md) file bef
 - Prefer verbose logging during dev sessions to help trace API call flow
 - When testing locally, use the `--dry-run` flag to avoid burning through credits accidentally
 - Default model preference: claude-3-5-haiku (faster/cheaper for quick experiments; switch to sonnet for real tasks)
+- Set a max token budget per session (e.g. ~50k tokens) to avoid surprise costs when running longer experiments
