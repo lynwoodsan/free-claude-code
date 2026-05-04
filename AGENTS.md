@@ -16,6 +16,8 @@
 - All 5 checks are enforced in `tests.yml` on push/merge.
 - Personal note: run `uv run ruff format` before committing to avoid noisy CI diffs.
 - Personal note: run `uv run pytest -x` to stop on first failure during local dev — faster feedback loop.
+- Personal note: run `uv run pytest --tb=short` for concise tracebacks when debugging test failures.
+- Personal note: use `uv run ty check --watch` during active development for continuous type feedback.
 
 ## IDENTITY & CONTEXT
 
@@ -38,5 +40,4 @@
 
 ## COGNITIVE WORKFLOW
 
-1. **ANALYZE**: Read relevant files. Do not guess.
-2. **PLAN**: Map out the logic. Identify root cause or requir
+1. **A
