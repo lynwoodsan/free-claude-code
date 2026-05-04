@@ -15,6 +15,7 @@
 - Do not add `# type: ignore` or `# ty: ignore`; fix the underlying type issue.
 - All 5 checks are enforced in `tests.yml` on push/merge.
 - Personal note: run `uv run ruff format` before committing to avoid noisy CI diffs.
+- Personal note: run `uv run pytest -x` to stop on first failure during local dev — faster feedback loop.
 
 ## IDENTITY & CONTEXT
 
@@ -38,5 +39,4 @@
 ## COGNITIVE WORKFLOW
 
 1. **ANALYZE**: Read relevant files. Do not guess.
-2. **PLAN**: Map out the logic. Identify root cause or required changes. Order changes by dependency.
-3. **EXECUTE**: Fix the cause, not the sympt
+2. **PLAN**: Map out the logic. Identify root cause or requir
